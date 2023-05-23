@@ -1,0 +1,15 @@
+{
+  "name": "kaboom-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild --bundle src/kaboomui.ts --outfile=dist/kaboomui.js --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "kaboom": "^3000.0.0-beta.6"
+  }
+}
